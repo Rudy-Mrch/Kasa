@@ -1,0 +1,37 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.card {
+  text-align: center; /* Centrer les images horizontalement */
+  position: relative;
+}
+.card img {
+  border-radius: 25px;
+  width: 85%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.card p {
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+  text-align: start;
+  width: auto;
+}
+.card:hover img {
+  transform: scale(1.05);
+}/*# sourceMappingURL=Card.css.map */

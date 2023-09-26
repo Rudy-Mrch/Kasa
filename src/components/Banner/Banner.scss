@@ -1,0 +1,27 @@
+.Banner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1.5em;
+img {
+	  width: 210px;
+	  height: 68px;
+	}
+ul {
+	  display: flex;
+	  list-style-type: none;
+	  gap: 2em;
+a {
+		text-decoration: none;
+		color: #FF6060;
+		font-size: 24px;
+	  }
+a.active {
+		text-decoration: underline;
+	  }
+	}
+  }
+
+  
+  
+  

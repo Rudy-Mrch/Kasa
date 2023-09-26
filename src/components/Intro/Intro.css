@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Définition de la classe .Intro */
+.Intro {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Intro img {
+  width: 1240px;
+  height: 223px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+.Intro h1 {
+  overflow: hidden;
+  color: white;
+  font-size: 48px;
+  position: absolute;
+}/*# sourceMappingURL=Intro.css.map */
