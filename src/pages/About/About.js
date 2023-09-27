@@ -12,7 +12,7 @@ const About = () => {
     <div>
       <Banner />
       <Intro />
-      <div>
+      <div className="container-about">
       <Collapse 
       isOpenByDefault={true}
       title="Fiabilité"
