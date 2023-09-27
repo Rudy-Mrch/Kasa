@@ -24,13 +24,14 @@
 .card p {
   position: absolute;
   bottom: 5%;
-  left: 8%;
+  left: 6%;
   color: white;
   padding: 10px;
   margin: 0;
   font-size: 18px;
   text-align: start;
   width: auto;
+  max-width: 18em;
 }
 .card:hover img {
   transform: scale(1.05);

@@ -1,6 +1,38 @@
-.fa-angle-down, .fa-angle-up{
-color: white;
-width: 50px;
-height: 50px;
-font-size: 50px;
+.collapse-container {
+	padding-bottom: 1.5em;
+	width: 1023px;
+}
+
+.collapse-title {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: white;
+	background-color: #ff6060;
+	border-radius: 5px;
+	justify-content: space-between
+}
+
+.arrow {
+	transition: transform 0.3s;
+	cursor: pointer;
+
+}
+
+.rotate {
+	transform: rotate(180deg);
+}
+
+.collapse-text {
+	padding: 10px;
+	background-color: #F6F6F6;
+	border-radius: 5px;
+	color: #ff6060;
+	font-size: 20px;
+}
+
+.arrow img {
+	width: 30px;
+	height: 30px;
 }
