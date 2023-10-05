@@ -1,0 +1,130 @@
+p{
+	color: #FF6060;
+	font-size: 18px;
+}
+
+.carrousel-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+  }
+  
+  .carrousel-container__slide {
+	
+	width: 1240px;
+	height: 415px;
+	object-fit: cover;
+	border-radius: 25px;
+	margin-top: 2.8em;
+  }
+  
+  .carrousel-container__arrowBack,
+  .carrousel-container__arrowNext {
+	position: absolute;
+	top: 45%;
+	cursor: pointer;
+  }
+
+  .carrousel-container__arrowBack {
+	left: 13%; 
+	
+  }
+  
+  .carrousel-container__arrowNext {
+	right: 13%; 
+	
+  }
+  
+  .carrousel-container__number {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+  }
+
+  .equipments-list {
+	white-space: pre-line; 
+  }
+  .collapses{
+	display: flex;
+gap: 4em;
+margin-top: 2em;
+margin-bottom: 2em;
+  }
+.logement_description{
+	max-width: 1240px;
+	margin: auto;
+}
+
+.title-logement{
+	color: #FF6060;
+	font-size: 36px;
+	font-weight: 500;
+}
+
+
+
+.tag{
+	display: flex;
+	list-style: none;
+	gap: 20px;
+	margin-left: -3em;
+	font-size: 14px;
+	color: white;
+}
+.tag li{
+	background-color: #FF6060;
+	border-radius: 25px;
+	padding: 0.7em;
+}
+
+.profilePicture{
+	border-radius: 100%;
+	width: 64px;
+height: 64px;
+}
+
+.title-container {
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	margin-top: 1em;
+	margin-bottom: -0.5em;
+  }
+  
+.name-container{
+	display: flex;
+	gap: 1em;
+	align-items: center;
+}
+.name{
+	width: 93px;
+	height: 52px;
+text-align: end;
+}
+
+.location{
+	margin-top: 0;
+}
+
+.rating {
+	display: inline-block;
+
+  }
+  
+  .star {
+	color: #E3E3E3;
+	font-size: 25px;
+  }
+  
+  .star-complet {
+	font-size: 25px;
+	color:#FF6060;
+  }
+  .notationTag{
+	display: flex;
+	align-items: center;
+justify-content: space-between;
+  }

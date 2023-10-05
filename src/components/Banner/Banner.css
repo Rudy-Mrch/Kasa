@@ -17,6 +17,9 @@
   text-decoration: none;
   color: #FF6060;
   font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .Banner ul a.active {
   text-decoration: underline;
