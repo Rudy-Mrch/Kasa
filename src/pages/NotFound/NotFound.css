@@ -20,18 +20,4 @@
   color: #FF6060;
   margin-bottom: 139px;
   font-size: 18px;
-}
-
-@media screen and (max-width: 767px) {
-  .containerError h1 {
-    font-size: 96px;
-    margin-bottom: 113px;
-    margin-top: 113px;
-  }
-  .containerError p {
-    font-size: 18px;
-  }
-  .containerError a {
-    font-size: 16px;
-  }
 }/*# sourceMappingURL=NotFound.css.map */

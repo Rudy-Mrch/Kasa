@@ -3,19 +3,28 @@ p{
 	font-size: 18px;
 }
 
+.logement-container{
+	margin: 1em;
+}
+
 .carrousel-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-  }
-  
-  .carrousel-container__slide {
-	
-	width: 1240px;
-	height: 415px;
-	object-fit: cover;
+	max-width: 1240px; 
+	width: 100%; 
 	border-radius: 25px;
+	margin: 0 auto; 
+	max-height: 415px; 
+	overflow: hidden; 
+  }
+
+  .carrousel-container__slide {
+	width: 100%; 
+	height: auto;
+	object-fit: cover;
+	border-radius: 25px; 
 	margin-top: 2.8em;
   }
   
@@ -27,12 +36,12 @@ p{
   }
 
   .carrousel-container__arrowBack {
-	left: 13%; 
+	left: 5%; 
 	
   }
   
   .carrousel-container__arrowNext {
-	right: 13%; 
+	right: 5%; 
 	
   }
   
@@ -49,9 +58,9 @@ p{
   }
   .collapses{
 	display: flex;
-gap: 4em;
-margin-top: 2em;
-margin-bottom: 2em;
+	gap: 4em;
+	margin-top: 2em;
+	margin-bottom: 2em;
   }
 .logement_description{
 	max-width: 1240px;
@@ -64,8 +73,6 @@ margin-bottom: 2em;
 	font-weight: 500;
 }
 
-
-
 .tag{
 	display: flex;
 	list-style: none;
@@ -76,14 +83,14 @@ margin-bottom: 2em;
 }
 .tag li{
 	background-color: #FF6060;
-	border-radius: 25px;
+	border-radius: 10px;
 	padding: 0.7em;
 }
 
 .profilePicture{
 	border-radius: 100%;
 	width: 64px;
-height: 64px;
+	height: 64px;
 }
 
 .title-container {
@@ -102,7 +109,7 @@ height: 64px;
 .name{
 	width: 93px;
 	height: 52px;
-text-align: end;
+	text-align: end;
 }
 
 .location{
@@ -128,3 +135,19 @@ text-align: end;
 	align-items: center;
 justify-content: space-between;
   }
+
+
+@media screen and (max-width: 767px) {
+
+
+.carrousel-container {
+	width: 335px;
+	height: 255px;
+  }
+
+  .carrousel-container__slide {
+	width: 335px;
+	height: 255px;
+  }
+
+}

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1.5em;
+  margin: 1.5em;
 }
 .Banner img {
   width: 210px;
@@ -17,10 +17,21 @@
   text-decoration: none;
   color: #FF6060;
   font-size: 24px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .Banner ul a.active {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .Banner img {
+    width: 145px;
+    height: 47px;
+  }
+  .Banner ul {
+    gap: 1em;
+  }
+  .Banner ul a {
+    font-size: 12px;
+    white-space: nowrap;
+  }
 }/*# sourceMappingURL=Banner.css.map */

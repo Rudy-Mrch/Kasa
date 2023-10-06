@@ -10,7 +10,7 @@
 }
 
 .card {
-  text-align: center; /* Centrer les images horizontalement */
+  text-align: center;
   position: relative;
 }
 .card img {
@@ -35,4 +35,14 @@
 }
 .card:hover img {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    display: block;
+    background-color: white;
+  }
+  .cards .card {
+    padding-top: 1em;
+  }
 }/*# sourceMappingURL=CardList.css.map */

@@ -2,18 +2,9 @@
 font-family: "Montserrat", sans-serif;
 }
 
-body {
-margin: 0;
-}
-
-header,main {
+header,main,body,article {
 max-width: 1240px;
 margin: auto;
+
 }
 
-@media (max-width: 1240px) {
-
-main,header {
-padding: 0 20px;
-	}
-}

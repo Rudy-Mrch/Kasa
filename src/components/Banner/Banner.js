@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Banner.scss"; // Utilisez le fichier SCSS
+import "./Banner.css";
 
 const Banner = () => {
   return (
@@ -10,17 +10,21 @@ const Banner = () => {
         <li>
           <NavLink
             to="/"
-            activeClassName="active" 
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
           >
-            Accueil
+            ACCUEIL
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/about"
-            activeClassName="active"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
           >
-            A Propos
+            A PROPOS
           </NavLink>
         </li>
       </ul>

@@ -10,7 +10,7 @@
   }
   
   .card {
-	text-align: center; /* Centrer les images horizontalement */
+	text-align: center; 
 	position: relative;
   
 	img {
@@ -40,4 +40,13 @@
 	  }
 	}
   }
-  
+
+@media screen and (max-width: 767px){
+.cards{
+	display: block;
+	background-color: white;
+.card{
+	padding-top: 1em;
+}	
+}	
+}

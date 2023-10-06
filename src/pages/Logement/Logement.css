@@ -3,16 +3,26 @@ p {
   font-size: 18px;
 }
 
+.logement-container {
+  margin: 1em;
+}
+
 .carrousel-container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  max-width: 1240px;
+  width: 100%;
+  border-radius: 25px;
+  margin: 0 auto;
+  max-height: 415px;
+  overflow: hidden;
 }
 
 .carrousel-container__slide {
-  width: 1240px;
-  height: 415px;
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 25px;
@@ -27,11 +37,11 @@ p {
 }
 
 .carrousel-container__arrowBack {
-  left: 13%;
+  left: 5%;
 }
 
 .carrousel-container__arrowNext {
-  right: 13%;
+  right: 5%;
 }
 
 .carrousel-container__number {
@@ -75,7 +85,7 @@ p {
 
 .tag li {
   background-color: #FF6060;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 0.7em;
 }
 
@@ -127,4 +137,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}/*# sourceMappingURL=Logement.css.map */
+}
+
+@media screen and (max-width: 767px) {
+ 
+  }
+/*# sourceMappingURL=Logement.css.map */

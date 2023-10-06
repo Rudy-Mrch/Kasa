@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
 	return (
-		<div className='Footer'>	
+		<div className='footer'>	
 		<img src="/pictures/LOGO_BW.png" alt="logo" className='logoBW' />
 		<h2>© 2020 Kasa. All rights reserved</h2>
 		</div>

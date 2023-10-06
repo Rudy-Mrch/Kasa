@@ -9,14 +9,14 @@ const Intro = () => {
   const renderContent = () => {
     if (location.pathname === '/') {
       return (
-        <div className='Intro'>
+        <div className='intro'>
           <img src="/pictures/IMG.png" alt="image d'un paysage" />
           <h1>Chez vous, partout et ailleurs</h1>
         </div>
       );
     } else if (location.pathname === '/about') {
       return (
-        <div className='Intro'>
+        <div className='intro'>
           <img src="/pictures/IMG2.png" alt="autre image" />
         </div>
       );

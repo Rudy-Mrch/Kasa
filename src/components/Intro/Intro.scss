@@ -1,5 +1,5 @@
 /* Définition de la classe .Intro */
-.Intro {
+.intro {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	display: flex;
@@ -9,7 +9,7 @@
 	text-align: center; 
   
 	img {
-	  width: 1240px;
+	  width: 95% ;
 	  height: 223px;
 	  object-fit: cover;
 	  border-radius: 25px;
@@ -18,7 +18,24 @@
 	  overflow: hidden;
 	  color: white;
 	  font-size: 48px;
+	  width: 95%;
 	  position: absolute; 
 	}
   }
+  
+  @media screen and (max-width: 767px) {
+
+	.intro {
+		margin: auto;
+		img {
+		  height: 111px;
+		}
+		h1 {
+			font-size: 24px;
+			text-align: justify;
+			left: 30px;
+			width: 236px;
+		}
+	  }
+	}
   

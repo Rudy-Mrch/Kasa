@@ -6,7 +6,7 @@
 
 .collapse-container {
 	padding-bottom: 1.5em;
-	width: 65%;
+	width: 85%;
 }
 
 .collapse-title {
@@ -43,8 +43,12 @@
 	height: 30px;
 }
 
-@media screen and (max-width: 767px) {
-
-
-
+@media screen and (max-width: 767px){
+	.container-about{
+		padding-top: 2em;
+	}
+	
+	.collapse-container {
+	width: 90%;
+	}
 }

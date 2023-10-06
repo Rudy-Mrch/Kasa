@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Définition de la classe .Intro */
-.Intro {
+.intro {
   margin-top: 2em;
   margin-bottom: 2em;
   display: flex;
@@ -9,16 +9,32 @@
   justify-content: center;
   text-align: center;
 }
-.Intro img {
-  width: 1240px;
+.intro img {
+  width: 95%;
   height: 223px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 25px;
 }
-.Intro h1 {
+.intro h1 {
   overflow: hidden;
   color: white;
   font-size: 48px;
+  width: 95%;
   position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin: auto;
+  }
+  .intro img {
+    height: 111px;
+  }
+  .intro h1 {
+    font-size: 24px;
+    text-align: justify;
+    left: 30px;
+    width: 236px;
+  }
 }/*# sourceMappingURL=Intro.css.map */
