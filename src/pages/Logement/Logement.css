@@ -1,12 +1,3 @@
-p {
-  color: #FF6060;
-  font-size: 18px;
-}
-
-.logement-container {
-  margin: 1em;
-}
-
 .carrousel-container {
   display: flex;
   justify-content: center;
@@ -113,14 +104,19 @@ p {
   width: 93px;
   height: 52px;
   text-align: end;
+  color: #FF6060;
+  font-size: 18px;
 }
 
 .location {
   margin-top: 0;
+  color: #FF6060;
+  font-weight: 500;
 }
 
 .rating {
-  display: inline-block;
+  width: 196px;
+  height: 36px;
 }
 
 .star {
@@ -140,6 +136,64 @@ p {
 }
 
 @media screen and (max-width: 767px) {
- 
+  .carrouselPix {
+    margin: 0;
   }
-/*# sourceMappingURL=Logement.css.map */
+  .title-logement {
+    font-size: 18px;
+  }
+  .location {
+    font-size: 14px;
+  }
+  .tag {
+    font-size: 10px;
+  }
+  .profilePicture {
+    width: 32px;
+    height: 32px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  .name-container {
+    position: absolute;
+    align-items: initial;
+    bottom: 23%;
+    right: 5%;
+  }
+  .collapse-title {
+    height: 30px;
+    font-size: 13px;
+  }
+  .collapses {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  .collapse-text {
+    font-size: 12px;
+  }
+  .notationTag {
+    flex-direction: column;
+  }
+  .tag {
+    align-items: flex-start;
+    margin-left: -4em;
+    width: 100%;
+  }
+  .Rating {
+    width: 100%;
+  }
+  .carrousel-container__arrowNext, .carrousel-container__arrowBack {
+    width: 8%;
+  }
+  .carrousel-container {
+    min-width: 335px;
+    min-height: 255px;
+  }
+  .carrousel-container__slide {
+    width: auto;
+    height: 100%;
+  }
+}/*# sourceMappingURL=Logement.css.map */

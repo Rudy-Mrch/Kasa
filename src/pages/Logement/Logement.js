@@ -32,7 +32,7 @@ function Logement() {
     <img className="profilePicture" src={profilPicture} alt="photo de profil" />
   </div>
 </div>
-        <p className="location">{location}</p>
+        <h2 className="location">{location}</h2>
      <div className="notationTag">
         <ul className="tag">
           {tags.map((tag, index) => (

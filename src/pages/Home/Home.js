@@ -8,7 +8,7 @@ import CardList from "../../components/CardList/CardList";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Banner />
       <Intro />
       <CardList />

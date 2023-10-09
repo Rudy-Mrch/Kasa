@@ -27,9 +27,13 @@
 @media screen and (max-width: 767px) {
   .intro {
     margin: auto;
+    padding-top: 1em;
   }
   .intro img {
     height: 111px;
+    width: 100%;
+    display: block;
+    margin-left: 1em;
   }
   .intro h1 {
     font-size: 24px;
