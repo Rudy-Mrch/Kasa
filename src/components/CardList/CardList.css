@@ -20,6 +20,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   transition: transform 0.3s ease;
+  filter: brightness(0.7);
 }
 .card p {
   position: absolute;

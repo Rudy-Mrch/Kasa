@@ -7,6 +7,7 @@ import "./Logement.css";
 import Banner from "../../components/Banner/Banner";
 import Footer from "../../components/Footer/Footer";
 import Rating from "../../components/Rating/Rating";
+import NotFound from "../NotFound/NotFound";
 
 function Logement() {
   let { id } = useParams();
@@ -19,7 +20,9 @@ function Logement() {
   const name = logement ? logement.host.name: "";
   const profilPicture = logement? logement.host.picture : "";
   const ratings = logement? logement.rating : "note";
-  
+    if(logement === undefined){
+      return <NotFound />
+  }
   return (
     <div className="logement-container">
       <Banner />
@@ -39,7 +42,13 @@ function Logement() {
             <li key={index}>{tag}</li>
           ))}
         </ul>
+      <div className="nameStar">
        <Rating rating={ratings} />
+       <div className="name-container_mobile">
+    <p className="name">{name}</p>
+    <img className="profilePicture" src={profilPicture} alt="photo de profil" />
+    </div>
+       </div>
        </div>
         <div className="collapses">
           <Collapse

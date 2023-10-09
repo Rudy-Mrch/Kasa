@@ -18,6 +18,7 @@
      object-fit: cover;
   border-radius: 25px;
   margin-top: 2.8em;
+  filter: brightness(0.8);
 }
 
 .carrousel-container__arrowBack,
@@ -100,6 +101,10 @@
   align-items: center;
 }
 
+.name-container_mobile {
+  display: none;
+}
+
 .name {
   width: 93px;
   height: 52px;
@@ -136,6 +141,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .logement_description {
+    margin-left: 1em;
+  }
   .carrouselPix {
     margin: 0;
   }
@@ -154,12 +162,17 @@
   }
   .name {
     font-size: 12px;
+    padding-right: 1em;
   }
   .name-container {
-    position: absolute;
-    align-items: initial;
-    bottom: 23%;
-    right: 5%;
+    display: none;
+  }
+  .name-container_mobile {
+    display: flex;
+  }
+  .nameStar {
+    display: flex;
+    flex-direction: row;
   }
   .collapse-title {
     height: 30px;
@@ -170,12 +183,14 @@
     flex-direction: column;
     gap: 0;
     align-items: center;
+    margin-top: -1em;
   }
   .collapse-text {
     font-size: 12px;
   }
   .notationTag {
     flex-direction: column;
+    align-items: inherit;
   }
   .tag {
     align-items: flex-start;
