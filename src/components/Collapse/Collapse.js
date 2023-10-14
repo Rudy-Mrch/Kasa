@@ -19,7 +19,16 @@ function Collapse({ isOpenByDefault, title, text, icon }) {
           {icon}
         </span>
       </div>
-      {isOpen && <div className="collapse-text">{text}</div>}
+      <div
+        className="collapse-text"
+        style={{
+          maxHeight: isOpen ? "1000px" : "0",
+          overflow: "hidden",
+          transition: "max-height 1s ease-in-out",
+        }}
+      >
+        {text}
+      </div>
     </div>
   );
 }
