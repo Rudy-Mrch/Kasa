@@ -144,6 +144,9 @@
   .logement_description {
     margin-left: 1em;
   }
+  .carrousel-container__number {
+    display: none;
+  }
   .carrouselPix {
     margin: 0;
   }
